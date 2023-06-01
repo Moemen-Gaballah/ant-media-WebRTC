@@ -1,0 +1,1 @@
+ docker run -d --restart=always -p 5080:5080 nibrev/ant-media-server
