@@ -60,7 +60,7 @@ class AuctionController extends Controller
         $response = curl_exec($curl);
 
         curl_close($curl);
-        echo $response;
+//        dd($response);
         $stream_id = json_decode($response)->streamId;
 
         Auction::create([

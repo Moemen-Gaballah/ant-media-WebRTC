@@ -3,6 +3,10 @@
 @section('content')
 
     <h3>All Auctions </h3>
+
+    <a class="btn btn-primary" href="{{route('auctions.create')}}">
+        Add Auction
+    </a>
     <table class="table table-striped">
         <thead>
         <tr>
